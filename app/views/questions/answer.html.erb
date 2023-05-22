@@ -1,0 +1,11 @@
+<div class="callout callout-question">
+  <h4> <%= params[:question] %> </h4>
+  <p> <i>- You</i></p>
+</div>
+
+<div class="callout callout-warning">
+  <h4> <%= @coach %></h4>
+  <p> <i>- Your coach</i></p>
+</div>
+
+<%= link_to "Ask a new question", "/ask" %>
